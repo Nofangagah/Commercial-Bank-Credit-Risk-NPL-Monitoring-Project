@@ -77,29 +77,33 @@ DIVIDE(
 // 5. Total Borrowers Count
 Total Borrowers = COUNTROWS(credit_risk_dataset)
 ```
-Strategic Recommendations
-Underwriting Policy Revision: Immediately cap or require full collateral backing for unsecured credit applications classified under Grades E, F, and G.
+## Strategic Recommendations
 
-DTI Hard Limits: Implement a maximum allowable DTI threshold of 30% for applicants under the RENT home ownership status.
+* **Underwriting Policy Revision:** Immediately cap or require full collateral backing for unsecured credit applications classified under Grades E, F, and G.
+* **DTI Hard Limits:** Implement a maximum allowable DTI threshold of 30% for applicants under the RENT home ownership status.
+* **Proactive Collections & Restructuring:** Focus early warning collection workflows on Debt Consolidation and Medical loan facilities showing NPL rates above 26%.
 
-Proactive Collections & Restructuring: Focus early warning collection workflows on Debt Consolidation and Medical loan facilities showing NPL rates above 26%.
+---
 
-How to Run the Project
-Clone this repository:
+## How to Run the Project
 
-Bash
+1. Clone this repository:
+```bash
 git clone [https://github.com/your-username/credit-risk-powerbi-dashboard.git](https://github.com/your-username/credit-risk-powerbi-dashboard.git)
-Download and install Power BI Desktop.
+```
+2. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
+3. Open the file `credit_risk_monitoring.pbix`.
+4. If prompted, refresh the dataset connection pointing to `data/credit_risk_dataset.csv`.
 
-Open the file credit_risk_monitoring.pbix.
+---
 
-If prompted, refresh the dataset connection pointing to data/credit_risk_dataset.csv.
+## Repository Structure
 
-Repository Structure
-Plaintext
+```text
 ├── data/
 │   └── credit_risk_dataset.csv      # Raw source dataset
 ├── assets/
 │   └── dashboard_overview.png       # Dashboard screenshot preview
 ├── credit_risk_monitoring.pbix      # Power BI project file
 └── README.md                        # Project documentation
+```

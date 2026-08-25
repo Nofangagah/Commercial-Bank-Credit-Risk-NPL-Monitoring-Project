@@ -76,7 +76,7 @@ DIVIDE(
 
 // 5. Total Borrowers Count
 Total Borrowers = COUNTROWS(credit_risk_dataset)
-
+```
 Strategic Recommendations
 Underwriting Policy Revision: Immediately cap or require full collateral backing for unsecured credit applications classified under Grades E, F, and G.
 

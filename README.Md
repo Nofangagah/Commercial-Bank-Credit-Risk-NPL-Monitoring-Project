@@ -89,7 +89,7 @@ Total Borrowers = COUNTROWS(credit_risk_dataset)
 
 1. Clone this repository:
 ```bash
-git clone [https://github.com/your-username/credit-risk-powerbi-dashboard.git](https://github.com/your-username/credit-risk-powerbi-dashboard.git)
+git clone [https://github.com/Nofangagah/Commercial-Bank-Credit-Risk-NPL-Monitoring-Project.git](https://github.com/Nofangagah/Commercial-Bank-Credit-Risk-NPL-Monitoring-Project.git)
 ```
 2. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 3. Open the file `credit_risk_monitoring.pbix`.
